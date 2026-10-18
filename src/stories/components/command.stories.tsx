@@ -1,0 +1,13 @@
+import type { Meta, StoryObj } from "@storybook/react-vite"
+import { CommandDemo } from "@/components/examples/overlay-demos"
+const meta = {
+  id: "components-command",
+  title: "Components/Command",
+  component: CommandDemo,
+  tags: ["autodocs"],
+  parameters: { docs: { description: { component: "Помогает быстро найти и запустить команду с помощью поиска и клавиатуры.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/command\n\nИсходник: src/components/ui/command.tsx\n\n```tsx\nimport { Command } from \"@/components/ui/command\"\n```" } } },
+} satisfies Meta<typeof CommandDemo>
+export default meta
+type Story = StoryObj<typeof meta>
+export const Default: Story = { name: "Пример" }
+

@@ -1,0 +1,13 @@
+import type { Meta, StoryObj } from "@storybook/react-vite"
+import { BadgeDemo } from "@/components/examples/feedback-demos"
+const meta = {
+  id: "components-badge",
+  title: "Components/Badge",
+  component: BadgeDemo,
+  tags: ["autodocs"],
+  parameters: { docs: { description: { component: "Кратко обозначает статус, категорию или другое свойство объекта.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/badge\n\nИсходник: src/components/ui/badge.tsx\n\n```tsx\nimport { Badge } from \"@/components/ui/badge\"\n```" } } },
+} satisfies Meta<typeof BadgeDemo>
+export default meta
+type Story = StoryObj<typeof meta>
+export const Default: Story = { name: "Пример" }
+

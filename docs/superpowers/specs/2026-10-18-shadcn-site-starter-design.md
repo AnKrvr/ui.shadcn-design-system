@@ -168,3 +168,4 @@ AGENTS.md должен предписывать:
 - https://ui.shadcn.com/docs/installation/vite
 - https://ui.shadcn.com/docs/cli
 - https://ui.shadcn.com/docs/theming
+
