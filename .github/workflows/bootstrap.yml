@@ -14,11 +14,14 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
       - name: Install and export official components
         run: |
           npm install
           npx shadcn@4.22.1 add --all --yes
+          npm install radix-ui@^1.4.3
+          npm audit --json > npm-audit.json || true
+          tar -czf runtime.tgz node_modules
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -26,4 +29,10 @@ jobs:
           path: |
             package.json
             package-lock.json
+            npm-audit.json
             src
+      - uses: actions/upload-artifact@v4
+        with:
+          name: node-runtime
+          compression-level: 0
+          path: runtime.tgz
