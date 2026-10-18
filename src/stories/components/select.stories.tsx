@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Select",
   component: SelectDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Select. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/select\n\nИсходник: src/components/ui/select.tsx\n\n```tsx\nimport { Select } from \"@/components/ui/select\"\n```" } } },
+  parameters: { docs: { description: { component: "Позволяет выбрать одно значение из компактного раскрывающегося списка.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/select\n\nИсходник: src/components/ui/select.tsx\n\n```tsx\nimport { Select } from \"@/components/ui/select\"\n```" } } },
 } satisfies Meta<typeof SelectDemo>
 export default meta
 type Story = StoryObj<typeof meta>

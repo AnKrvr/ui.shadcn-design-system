@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Popover",
   component: PopoverDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Popover. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/popover\n\nИсходник: src/components/ui/popover.tsx\n\n```tsx\nimport { Popover } from \"@/components/ui/popover\"\n```" } } },
+  parameters: { docs: { description: { component: "Открывает небольшой немодальный блок рядом с кнопкой, например быстрые настройки.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/popover\n\nИсходник: src/components/ui/popover.tsx\n\n```tsx\nimport { Popover } from \"@/components/ui/popover\"\n```" } } },
 } satisfies Meta<typeof PopoverDemo>
 export default meta
 type Story = StoryObj<typeof meta>

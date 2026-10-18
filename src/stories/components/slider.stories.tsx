@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Slider",
   component: SliderDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Slider. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/slider\n\nИсходник: src/components/ui/slider.tsx\n\n```tsx\nimport { Slider } from \"@/components/ui/slider\"\n```" } } },
+  parameters: { docs: { description: { component: "Позволяет выбрать числовое значение перетаскиванием ползунка или с клавиатуры.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/slider\n\nИсходник: src/components/ui/slider.tsx\n\n```tsx\nimport { Slider } from \"@/components/ui/slider\"\n```" } } },
 } satisfies Meta<typeof SliderDemo>
 export default meta
 type Story = StoryObj<typeof meta>

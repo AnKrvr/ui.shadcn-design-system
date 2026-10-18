@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Empty",
   component: EmptyDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Empty. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/empty\n\nИсходник: src/components/ui/empty.tsx\n\n```tsx\nimport { Empty } from \"@/components/ui/empty\"\n```" } } },
+  parameters: { docs: { description: { component: "Объясняет отсутствие данных или результатов и предлагает следующий полезный шаг.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/empty\n\nИсходник: src/components/ui/empty.tsx\n\n```tsx\nimport { Empty } from \"@/components/ui/empty\"\n```" } } },
 } satisfies Meta<typeof EmptyDemo>
 export default meta
 type Story = StoryObj<typeof meta>

@@ -51,7 +51,8 @@ CLI читает components.json. Не используйте --overwrite без
 
 ## Составные паттерны
 
-DatePicker принимает value и onChange.
+DatePicker принимает value и onChange. Для доступной подписи передайте id
+и свяжите с ним Label через htmlFor; также поддерживаются aria-label и aria-describedby.
 DataTable принимает columns и data из TanStack Table; filterColumn включает поиск.
 TypographyDemo показывает базовую иерархию текста.
 
@@ -62,15 +63,15 @@ TypographyDemo показывает базовую иерархию текста
 ## Перенос в новый репозиторий
 
 ```bash
-git clone https://github.com/AnKrvr/ui.shadcn-design-system.git my-site
+git clone --branch feat/shadcn-site-starter https://github.com/AnKrvr/ui.shadcn-design-system.git my-site
 cd my-site
 git remote set-url origin https://github.com/ВАШ-АККАУНТ/НОВЫЙ-РЕПОЗИТОРИЙ.git
 npm ci
 npm run dev
 ```
 
-После слияния реализации используйте основную ветку.
-До слияния реализация находится в ветке feat/shadcn-site-starter.
+Команда выше использует ветку реализации до слияния PR.
+После слияния в main параметр --branch feat/shadcn-site-starter можно убрать.
 
 Переименуйте проект в package.json, обновите README и содержимое страниц.
 Сохраняйте исходные лицензии и правила системы.

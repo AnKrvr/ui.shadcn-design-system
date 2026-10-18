@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Toggle",
   component: ToggleDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Toggle. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/toggle\n\nИсходник: src/components/ui/toggle.tsx\n\n```tsx\nimport { Toggle } from \"@/components/ui/toggle\"\n```" } } },
+  parameters: { docs: { description: { component: "Переключает действие между нажатым и ненажатым состояниями, например полужирное начертание.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/toggle\n\nИсходник: src/components/ui/toggle.tsx\n\n```tsx\nimport { Toggle } from \"@/components/ui/toggle\"\n```" } } },
 } satisfies Meta<typeof ToggleDemo>
 export default meta
 type Story = StoryObj<typeof meta>

@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Accordion",
   component: AccordionDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Accordion. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/accordion\n\nИсходник: src/components/ui/accordion.tsx\n\n```tsx\nimport { Accordion } from \"@/components/ui/accordion\"\n```" } } },
+  parameters: { docs: { description: { component: "Группирует раскрывающиеся разделы: подходит для FAQ, настроек и длинного справочного текста.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/accordion\n\nИсходник: src/components/ui/accordion.tsx\n\n```tsx\nimport { Accordion } from \"@/components/ui/accordion\"\n```" } } },
 } satisfies Meta<typeof AccordionDemo>
 export default meta
 type Story = StoryObj<typeof meta>

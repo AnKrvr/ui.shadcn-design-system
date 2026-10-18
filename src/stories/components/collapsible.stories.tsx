@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Collapsible",
   component: CollapsibleDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Collapsible. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/collapsible\n\nИсходник: src/components/ui/collapsible.tsx\n\n```tsx\nimport { Collapsible } from \"@/components/ui/collapsible\"\n```" } } },
+  parameters: { docs: { description: { component: "Раскрывает или скрывает дополнительное содержимое одного раздела.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/collapsible\n\nИсходник: src/components/ui/collapsible.tsx\n\n```tsx\nimport { Collapsible } from \"@/components/ui/collapsible\"\n```" } } },
 } satisfies Meta<typeof CollapsibleDemo>
 export default meta
 type Story = StoryObj<typeof meta>

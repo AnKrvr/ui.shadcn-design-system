@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Command",
   component: CommandDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Command. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/command\n\nИсходник: src/components/ui/command.tsx\n\n```tsx\nimport { Command } from \"@/components/ui/command\"\n```" } } },
+  parameters: { docs: { description: { component: "Помогает быстро найти и запустить команду с помощью поиска и клавиатуры.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/command\n\nИсходник: src/components/ui/command.tsx\n\n```tsx\nimport { Command } from \"@/components/ui/command\"\n```" } } },
 } satisfies Meta<typeof CommandDemo>
 export default meta
 type Story = StoryObj<typeof meta>

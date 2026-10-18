@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Radio Group",
   component: RadioGroupDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Radio Group. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/radio-group\n\nИсходник: src/components/ui/radio-group.tsx\n\n```tsx\nimport { RadioGroup } from \"@/components/ui/radio-group\"\n```" } } },
+  parameters: { docs: { description: { component: "Позволяет выбрать ровно один вариант из видимого набора.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/radio-group\n\nИсходник: src/components/ui/radio-group.tsx\n\n```tsx\nimport { RadioGroup } from \"@/components/ui/radio-group\"\n```" } } },
 } satisfies Meta<typeof RadioGroupDemo>
 export default meta
 type Story = StoryObj<typeof meta>

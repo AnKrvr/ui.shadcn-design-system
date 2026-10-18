@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Switch",
   component: SwitchDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Switch. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/switch\n\nИсходник: src/components/ui/switch.tsx\n\n```tsx\nimport { Switch } from \"@/components/ui/switch\"\n```" } } },
+  parameters: { docs: { description: { component: "Включает и выключает настройку, изменение которой применяется сразу.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/switch\n\nИсходник: src/components/ui/switch.tsx\n\n```tsx\nimport { Switch } from \"@/components/ui/switch\"\n```" } } },
 } satisfies Meta<typeof SwitchDemo>
 export default meta
 type Story = StoryObj<typeof meta>

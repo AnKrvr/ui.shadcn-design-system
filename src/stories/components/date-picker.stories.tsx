@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Date Picker",
   component: DatePickerDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Date Picker. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/date-picker\n\nИсходник: src/components/patterns/date-picker.tsx\n\n```tsx\nimport { DatePicker } from \"@/components/patterns/date-picker\"\n```" } } },
+  parameters: { docs: { description: { component: "Позволяет выбрать дату в календаре, который открывается рядом с полем.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/date-picker\n\nИсходник: src/components/patterns/date-picker.tsx\n\n```tsx\nimport { DatePicker } from \"@/components/patterns/date-picker\"\n```" } } },
 } satisfies Meta<typeof DatePickerDemo>
 export default meta
 type Story = StoryObj<typeof meta>

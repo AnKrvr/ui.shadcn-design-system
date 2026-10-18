@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Breadcrumb",
   component: BreadcrumbDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Breadcrumb. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/breadcrumb\n\nИсходник: src/components/ui/breadcrumb.tsx\n\n```tsx\nimport { Breadcrumb } from \"@/components/ui/breadcrumb\"\n```" } } },
+  parameters: { docs: { description: { component: "Показывает положение страницы в иерархии и помогает вернуться к родительскому разделу.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/breadcrumb\n\nИсходник: src/components/ui/breadcrumb.tsx\n\n```tsx\nimport { Breadcrumb } from \"@/components/ui/breadcrumb\"\n```" } } },
 } satisfies Meta<typeof BreadcrumbDemo>
 export default meta
 type Story = StoryObj<typeof meta>

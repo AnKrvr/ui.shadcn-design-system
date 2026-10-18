@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Questionnaire",
   component: QuestionnaireDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Questionnaire. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/questionnaire\n\nИсходник: src/components/ui/questionnaire.tsx\n\n```tsx\nimport { Questionnaire } from \"@/components/ui/questionnaire\"\n```" } } },
+  parameters: { docs: { description: { component: "Организует вопросы с вариантами ответа, проверкой заполнения и пошаговым переходом.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/questionnaire\n\nИсходник: src/components/ui/questionnaire.tsx\n\n```tsx\nimport { Questionnaire } from \"@/components/ui/questionnaire\"\n```" } } },
 } satisfies Meta<typeof QuestionnaireDemo>
 export default meta
 type Story = StoryObj<typeof meta>

@@ -20,9 +20,14 @@ test("theme is restored after reload", async ({page}) => {
   await expect(page.locator("html")).toHaveClass(/dark/)
 })
 test("blocked localStorage does not crash the page", async ({page}) => {
+  await page.emulateMedia({colorScheme:"dark"})
   await page.addInitScript(() => Object.defineProperty(window,"localStorage",{get(){throw new DOMException("blocked","SecurityError")}}))
   await page.goto("/")
   await expect(page.getByRole("heading",{name:"От идеи к интерфейсу."})).toBeVisible()
+  await expect(page.locator("html")).toHaveClass(/dark/)
+  await page.reload()
+  await expect(page.getByRole("heading",{name:"От идеи к интерфейсу."})).toBeVisible()
+  await expect(page.locator("html")).toHaveClass(/dark/)
 })
 test("dialog closes with Escape and restores keyboard focus", async ({page}) => {
   await page.goto("/")
@@ -56,8 +61,9 @@ test("table search and sorting update visible data", async ({page}) => {
 })
 test("date picker changes its value", async ({page}) => {
   await page.goto("/")
-  await page.getByRole("button",{name:"Выберите дату"}).click()
+  const picker=page.getByRole("button",{name:"Дата запуска",exact:true})
+  await picker.click()
   await page.getByRole("gridcell").filter({has:page.locator("button")}).nth(10).getByRole("button").click()
-  await expect(page.getByRole("button",{name:"Выберите дату"})).not.toBeVisible()
+  await expect(picker).not.toHaveText("Выберите дату")
 })
 
