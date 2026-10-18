@@ -1,0 +1,13 @@
+import type { Meta, StoryObj } from "@storybook/react-vite"
+import { CodeBlockDemo } from "@/components/examples/message-demos"
+const meta = {
+  id: "components-code-block",
+  title: "Components/Code Block",
+  component: CodeBlockDemo,
+  tags: ["autodocs"],
+  parameters: { docs: { description: { component: "Рабочий пример Code Block. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/code-block\n\nИсходник: src/components/ui/code-block.tsx" } } },
+} satisfies Meta<typeof CodeBlockDemo>
+export default meta
+type Story = StoryObj<typeof meta>
+export const Default: Story = { name: "Пример" }
+

@@ -1,0 +1,814 @@
+{
+  "capturedAt": "2026-10-18",
+  "sourceUrl": "https://ui.shadcn.com/docs/components",
+  "sourceRevision": "shadcn-ui/ui@daaf156ee00ed91cc7e6bdd937c1b4973152d141",
+  "preset": "radix-vega",
+  "cli": "shadcn@4.22.1",
+  "components": [
+    {
+      "slug": "accordion",
+      "name": "Accordion",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/accordion",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/accordion.tsx"
+      ],
+      "storyIds": [
+        "components-accordion--default"
+      ]
+    },
+    {
+      "slug": "alert-dialog",
+      "name": "Alert Dialog",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/alert-dialog",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/alert-dialog.tsx"
+      ],
+      "storyIds": [
+        "components-alert-dialog--default"
+      ]
+    },
+    {
+      "slug": "alert",
+      "name": "Alert",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/alert",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/alert.tsx"
+      ],
+      "storyIds": [
+        "components-alert--default"
+      ]
+    },
+    {
+      "slug": "aspect-ratio",
+      "name": "Aspect Ratio",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/aspect-ratio",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/aspect-ratio.tsx"
+      ],
+      "storyIds": [
+        "components-aspect-ratio--default"
+      ]
+    },
+    {
+      "slug": "attachment",
+      "name": "Attachment",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/attachment",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/attachment.tsx"
+      ],
+      "storyIds": [
+        "components-attachment--default"
+      ]
+    },
+    {
+      "slug": "avatar",
+      "name": "Avatar",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/avatar",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/avatar.tsx"
+      ],
+      "storyIds": [
+        "components-avatar--default"
+      ]
+    },
+    {
+      "slug": "badge",
+      "name": "Badge",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/badge",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/badge.tsx"
+      ],
+      "storyIds": [
+        "components-badge--default"
+      ]
+    },
+    {
+      "slug": "breadcrumb",
+      "name": "Breadcrumb",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/breadcrumb",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/breadcrumb.tsx"
+      ],
+      "storyIds": [
+        "components-breadcrumb--default"
+      ]
+    },
+    {
+      "slug": "bubble",
+      "name": "Bubble",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/bubble",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/bubble.tsx"
+      ],
+      "storyIds": [
+        "components-bubble--default"
+      ]
+    },
+    {
+      "slug": "button-group",
+      "name": "Button Group",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/button-group",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/button-group.tsx"
+      ],
+      "storyIds": [
+        "components-button-group--default"
+      ]
+    },
+    {
+      "slug": "button",
+      "name": "Button",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/button",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/button.tsx"
+      ],
+      "storyIds": [
+        "components-button--default"
+      ]
+    },
+    {
+      "slug": "calendar",
+      "name": "Calendar",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/calendar",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/calendar.tsx"
+      ],
+      "storyIds": [
+        "components-calendar--default"
+      ]
+    },
+    {
+      "slug": "card",
+      "name": "Card",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/card",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/card.tsx"
+      ],
+      "storyIds": [
+        "components-card--default"
+      ]
+    },
+    {
+      "slug": "carousel",
+      "name": "Carousel",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/carousel",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/carousel.tsx"
+      ],
+      "storyIds": [
+        "components-carousel--default"
+      ]
+    },
+    {
+      "slug": "chart",
+      "name": "Chart",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/chart",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/chart.tsx"
+      ],
+      "storyIds": [
+        "components-chart--default"
+      ]
+    },
+    {
+      "slug": "checkbox",
+      "name": "Checkbox",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/checkbox",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/checkbox.tsx"
+      ],
+      "storyIds": [
+        "components-checkbox--default"
+      ]
+    },
+    {
+      "slug": "code-block",
+      "name": "Code Block",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/code-block",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/code-block.tsx"
+      ],
+      "storyIds": [
+        "components-code-block--default"
+      ]
+    },
+    {
+      "slug": "collapsible",
+      "name": "Collapsible",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/collapsible",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/collapsible.tsx"
+      ],
+      "storyIds": [
+        "components-collapsible--default"
+      ]
+    },
+    {
+      "slug": "combobox",
+      "name": "Combobox",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/combobox",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/combobox.tsx"
+      ],
+      "storyIds": [
+        "components-combobox--default"
+      ]
+    },
+    {
+      "slug": "command",
+      "name": "Command",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/command",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/command.tsx"
+      ],
+      "storyIds": [
+        "components-command--default"
+      ]
+    },
+    {
+      "slug": "context-menu",
+      "name": "Context Menu",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/context-menu",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/context-menu.tsx"
+      ],
+      "storyIds": [
+        "components-context-menu--default"
+      ]
+    },
+    {
+      "slug": "data-table",
+      "name": "Data Table",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/data-table",
+      "kind": "composition",
+      "files": [
+        "src/components/patterns/data-table.tsx"
+      ],
+      "storyIds": [
+        "components-data-table--default"
+      ]
+    },
+    {
+      "slug": "date-picker",
+      "name": "Date Picker",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/date-picker",
+      "kind": "composition",
+      "files": [
+        "src/components/patterns/date-picker.tsx"
+      ],
+      "storyIds": [
+        "components-date-picker--default"
+      ]
+    },
+    {
+      "slug": "dialog",
+      "name": "Dialog",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/dialog",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/dialog.tsx"
+      ],
+      "storyIds": [
+        "components-dialog--default"
+      ]
+    },
+    {
+      "slug": "direction",
+      "name": "Direction",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/direction",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/direction.tsx"
+      ],
+      "storyIds": [
+        "components-direction--default"
+      ]
+    },
+    {
+      "slug": "drawer",
+      "name": "Drawer",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/drawer",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/drawer.tsx"
+      ],
+      "storyIds": [
+        "components-drawer--default"
+      ]
+    },
+    {
+      "slug": "dropdown-menu",
+      "name": "Dropdown Menu",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/dropdown-menu",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/dropdown-menu.tsx"
+      ],
+      "storyIds": [
+        "components-dropdown-menu--default"
+      ]
+    },
+    {
+      "slug": "empty",
+      "name": "Empty",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/empty",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/empty.tsx"
+      ],
+      "storyIds": [
+        "components-empty--default"
+      ]
+    },
+    {
+      "slug": "field",
+      "name": "Field",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/field",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/field.tsx"
+      ],
+      "storyIds": [
+        "components-field--default"
+      ]
+    },
+    {
+      "slug": "hover-card",
+      "name": "Hover Card",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/hover-card",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/hover-card.tsx"
+      ],
+      "storyIds": [
+        "components-hover-card--default"
+      ]
+    },
+    {
+      "slug": "input-group",
+      "name": "Input Group",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/input-group",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/input-group.tsx"
+      ],
+      "storyIds": [
+        "components-input-group--default"
+      ]
+    },
+    {
+      "slug": "input-otp",
+      "name": "Input OTP",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/input-otp",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/input-otp.tsx"
+      ],
+      "storyIds": [
+        "components-input-otp--default"
+      ]
+    },
+    {
+      "slug": "input",
+      "name": "Input",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/input",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/input.tsx"
+      ],
+      "storyIds": [
+        "components-input--default"
+      ]
+    },
+    {
+      "slug": "item",
+      "name": "Item",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/item",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/item.tsx"
+      ],
+      "storyIds": [
+        "components-item--default"
+      ]
+    },
+    {
+      "slug": "kbd",
+      "name": "Kbd",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/kbd",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/kbd.tsx"
+      ],
+      "storyIds": [
+        "components-kbd--default"
+      ]
+    },
+    {
+      "slug": "label",
+      "name": "Label",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/label",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/label.tsx"
+      ],
+      "storyIds": [
+        "components-label--default"
+      ]
+    },
+    {
+      "slug": "marker",
+      "name": "Marker",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/marker",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/marker.tsx"
+      ],
+      "storyIds": [
+        "components-marker--default"
+      ]
+    },
+    {
+      "slug": "menubar",
+      "name": "Menubar",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/menubar",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/menubar.tsx"
+      ],
+      "storyIds": [
+        "components-menubar--default"
+      ]
+    },
+    {
+      "slug": "message-scroller",
+      "name": "Message Scroller",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/message-scroller",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/message-scroller.tsx"
+      ],
+      "storyIds": [
+        "components-message-scroller--default"
+      ]
+    },
+    {
+      "slug": "message",
+      "name": "Message",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/message",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/message.tsx"
+      ],
+      "storyIds": [
+        "components-message--default"
+      ]
+    },
+    {
+      "slug": "native-select",
+      "name": "Native Select",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/native-select",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/native-select.tsx"
+      ],
+      "storyIds": [
+        "components-native-select--default"
+      ]
+    },
+    {
+      "slug": "navigation-menu",
+      "name": "Navigation Menu",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/navigation-menu",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/navigation-menu.tsx"
+      ],
+      "storyIds": [
+        "components-navigation-menu--default"
+      ]
+    },
+    {
+      "slug": "pagination",
+      "name": "Pagination",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/pagination",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/pagination.tsx"
+      ],
+      "storyIds": [
+        "components-pagination--default"
+      ]
+    },
+    {
+      "slug": "popover",
+      "name": "Popover",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/popover",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/popover.tsx"
+      ],
+      "storyIds": [
+        "components-popover--default"
+      ]
+    },
+    {
+      "slug": "progress",
+      "name": "Progress",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/progress",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/progress.tsx"
+      ],
+      "storyIds": [
+        "components-progress--default"
+      ]
+    },
+    {
+      "slug": "questionnaire",
+      "name": "Questionnaire",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/questionnaire",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/questionnaire.tsx"
+      ],
+      "storyIds": [
+        "components-questionnaire--default"
+      ]
+    },
+    {
+      "slug": "radio-group",
+      "name": "Radio Group",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/radio-group",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/radio-group.tsx"
+      ],
+      "storyIds": [
+        "components-radio-group--default"
+      ]
+    },
+    {
+      "slug": "resizable",
+      "name": "Resizable",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/resizable",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/resizable.tsx"
+      ],
+      "storyIds": [
+        "components-resizable--default"
+      ]
+    },
+    {
+      "slug": "scroll-area",
+      "name": "Scroll Area",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/scroll-area",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/scroll-area.tsx"
+      ],
+      "storyIds": [
+        "components-scroll-area--default"
+      ]
+    },
+    {
+      "slug": "select",
+      "name": "Select",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/select",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/select.tsx"
+      ],
+      "storyIds": [
+        "components-select--default"
+      ]
+    },
+    {
+      "slug": "separator",
+      "name": "Separator",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/separator",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/separator.tsx"
+      ],
+      "storyIds": [
+        "components-separator--default"
+      ]
+    },
+    {
+      "slug": "sheet",
+      "name": "Sheet",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/sheet",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/sheet.tsx"
+      ],
+      "storyIds": [
+        "components-sheet--default"
+      ]
+    },
+    {
+      "slug": "sidebar",
+      "name": "Sidebar",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/sidebar",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/sidebar.tsx"
+      ],
+      "storyIds": [
+        "components-sidebar--default"
+      ]
+    },
+    {
+      "slug": "skeleton",
+      "name": "Skeleton",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/skeleton",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/skeleton.tsx"
+      ],
+      "storyIds": [
+        "components-skeleton--default"
+      ]
+    },
+    {
+      "slug": "slider",
+      "name": "Slider",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/slider",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/slider.tsx"
+      ],
+      "storyIds": [
+        "components-slider--default"
+      ]
+    },
+    {
+      "slug": "sonner",
+      "name": "Sonner",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/sonner",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/sonner.tsx"
+      ],
+      "storyIds": [
+        "components-sonner--default"
+      ]
+    },
+    {
+      "slug": "spinner",
+      "name": "Spinner",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/spinner",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/spinner.tsx"
+      ],
+      "storyIds": [
+        "components-spinner--default"
+      ]
+    },
+    {
+      "slug": "switch",
+      "name": "Switch",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/switch",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/switch.tsx"
+      ],
+      "storyIds": [
+        "components-switch--default"
+      ]
+    },
+    {
+      "slug": "table",
+      "name": "Table",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/table",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/table.tsx"
+      ],
+      "storyIds": [
+        "components-table--default"
+      ]
+    },
+    {
+      "slug": "tabs",
+      "name": "Tabs",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/tabs",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/tabs.tsx"
+      ],
+      "storyIds": [
+        "components-tabs--default"
+      ]
+    },
+    {
+      "slug": "textarea",
+      "name": "Textarea",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/textarea",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/textarea.tsx"
+      ],
+      "storyIds": [
+        "components-textarea--default"
+      ]
+    },
+    {
+      "slug": "toast",
+      "name": "Toast",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/toast",
+      "kind": "composition",
+      "files": [
+        "src/components/ui/sonner.tsx"
+      ],
+      "storyIds": [
+        "components-toast--default"
+      ]
+    },
+    {
+      "slug": "toggle-group",
+      "name": "Toggle Group",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/toggle-group",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/toggle-group.tsx"
+      ],
+      "storyIds": [
+        "components-toggle-group--default"
+      ]
+    },
+    {
+      "slug": "toggle",
+      "name": "Toggle",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/toggle",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/toggle.tsx"
+      ],
+      "storyIds": [
+        "components-toggle--default"
+      ]
+    },
+    {
+      "slug": "tooltip",
+      "name": "Tooltip",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/tooltip",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/tooltip.tsx"
+      ],
+      "storyIds": [
+        "components-tooltip--default"
+      ]
+    },
+    {
+      "slug": "trace",
+      "name": "Trace",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/trace",
+      "kind": "primitive",
+      "files": [
+        "src/components/ui/trace.tsx"
+      ],
+      "storyIds": [
+        "components-trace--default"
+      ]
+    },
+    {
+      "slug": "typography",
+      "name": "Typography",
+      "docsUrl": "https://ui.shadcn.com/docs/components/radix/typography",
+      "kind": "composition",
+      "files": [
+        "src/components/patterns/typography.tsx"
+      ],
+      "storyIds": [
+        "components-typography--default"
+      ]
+    }
+  ]
+}
+

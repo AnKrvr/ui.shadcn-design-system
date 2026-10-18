@@ -1,0 +1,13 @@
+import type { Meta, StoryObj } from "@storybook/react-vite"
+import { KbdDemo } from "@/components/examples/feedback-demos"
+const meta = {
+  id: "components-kbd",
+  title: "Components/Kbd",
+  component: KbdDemo,
+  tags: ["autodocs"],
+  parameters: { docs: { description: { component: "Рабочий пример Kbd. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/kbd\n\nИсходник: src/components/ui/kbd.tsx" } } },
+} satisfies Meta<typeof KbdDemo>
+export default meta
+type Story = StoryObj<typeof meta>
+export const Default: Story = { name: "Пример" }
+

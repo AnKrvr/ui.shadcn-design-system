@@ -31,3 +31,4 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
     process.exitCode = 1;
   } else console.log(`Catalog verified: ${result.componentCount} components, all sources and stories present.`);
 }
+

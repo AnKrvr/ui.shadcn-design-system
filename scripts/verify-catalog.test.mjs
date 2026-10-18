@@ -9,3 +9,4 @@ test("missing story reports the component",()=>assert.match(check([entry],()=>tr
 test("duplicate slug cannot hide a missing component",()=>assert.match(check([entry,entry]).errors.join(" "),/duplicate.*button/i));
 test("empty source list is rejected",()=>assert.match(check([{...entry,files:[]}]).errors.join(" "),/button.*source/i));
 test("empty story list is rejected",()=>assert.match(check([{...entry,storyIds:[]}]).errors.join(" "),/button.*story/i));
+
