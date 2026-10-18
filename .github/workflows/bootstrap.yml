@@ -1,0 +1,29 @@
+name: Bootstrap official shadcn components
+on:
+  push:
+    branches: [feat/shadcn-site-starter]
+    paths: [package.json, components.json, .github/workflows/bootstrap.yml]
+permissions:
+  contents: read
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install and export official components
+        run: |
+          npm install
+          npx shadcn@4.22.1 add --all --yes
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bootstrap-source
+          path: |
+            package.json
+            package-lock.json
+            src
