@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Skeleton",
   component: SkeletonDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Skeleton. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/skeleton\n\nИсходник: src/components/ui/skeleton.tsx" } } },
+  parameters: { docs: { description: { component: "Рабочий пример Skeleton. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/skeleton\n\nИсходник: src/components/ui/skeleton.tsx\n\n```tsx\nimport { Skeleton } from \"@/components/ui/skeleton\"\n```" } } },
 } satisfies Meta<typeof SkeletonDemo>
 export default meta
 type Story = StoryObj<typeof meta>

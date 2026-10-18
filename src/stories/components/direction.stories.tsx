@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Direction",
   component: DirectionDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Direction. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/direction\n\nИсходник: src/components/ui/direction.tsx" } } },
+  parameters: { docs: { description: { component: "Рабочий пример Direction. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/direction\n\nИсходник: src/components/ui/direction.tsx\n\n```tsx\nimport { DirectionProvider } from \"@/components/ui/direction\"\n```" } } },
 } satisfies Meta<typeof DirectionDemo>
 export default meta
 type Story = StoryObj<typeof meta>

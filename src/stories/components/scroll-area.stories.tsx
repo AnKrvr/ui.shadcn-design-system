@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Scroll Area",
   component: ScrollAreaDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Scroll Area. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/scroll-area\n\nИсходник: src/components/ui/scroll-area.tsx" } } },
+  parameters: { docs: { description: { component: "Рабочий пример Scroll Area. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/scroll-area\n\nИсходник: src/components/ui/scroll-area.tsx\n\n```tsx\nimport { ScrollArea } from \"@/components/ui/scroll-area\"\n```" } } },
 } satisfies Meta<typeof ScrollAreaDemo>
 export default meta
 type Story = StoryObj<typeof meta>

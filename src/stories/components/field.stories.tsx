@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Field",
   component: FieldDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Field. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/field\n\nИсходник: src/components/ui/field.tsx" } } },
+  parameters: { docs: { description: { component: "Рабочий пример Field. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/field\n\nИсходник: src/components/ui/field.tsx\n\n```tsx\nimport { Field } from \"@/components/ui/field\"\n```" } } },
 } satisfies Meta<typeof FieldDemo>
 export default meta
 type Story = StoryObj<typeof meta>

@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Resizable",
   component: ResizableDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Resizable. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/resizable\n\nИсходник: src/components/ui/resizable.tsx" } } },
+  parameters: { docs: { description: { component: "Рабочий пример Resizable. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/resizable\n\nИсходник: src/components/ui/resizable.tsx\n\n```tsx\nimport { ResizablePanelGroup } from \"@/components/ui/resizable\"\n```" } } },
 } satisfies Meta<typeof ResizableDemo>
 export default meta
 type Story = StoryObj<typeof meta>

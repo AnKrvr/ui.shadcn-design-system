@@ -1,7 +1,7 @@
 name: Verify design system
 on:
   push:
-    branches: [main, feat/shadcn-site-starter]
+    branches: [main]
   pull_request:
 permissions:
   contents: read
@@ -34,12 +34,6 @@ jobs:
         run: npx playwright install --with-deps chromium --only-shell
       - name: Browser checks
         run: npm run test:e2e
-      - name: Export browser for local verification
-        if: always()
-        run: |
-          if [ -d "$HOME/.cache/ms-playwright" ]; then
-            tar -czf playwright-browser.tgz -C "$HOME/.cache" ms-playwright
-          fi
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -49,11 +43,4 @@ jobs:
             storybook-static
             playwright-report
             test-results
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: chromium-for-verification
-          compression-level: 0
-          path: playwright-browser.tgz
-          if-no-files-found: ignore
 

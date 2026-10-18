@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Aspect Ratio",
   component: AspectRatioDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Aspect Ratio. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/aspect-ratio\n\nИсходник: src/components/ui/aspect-ratio.tsx" } } },
+  parameters: { docs: { description: { component: "Рабочий пример Aspect Ratio. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/aspect-ratio\n\nИсходник: src/components/ui/aspect-ratio.tsx\n\n```tsx\nimport { AspectRatio } from \"@/components/ui/aspect-ratio\"\n```" } } },
 } satisfies Meta<typeof AspectRatioDemo>
 export default meta
 type Story = StoryObj<typeof meta>

@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Item",
   component: ItemDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Item. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/item\n\nИсходник: src/components/ui/item.tsx" } } },
+  parameters: { docs: { description: { component: "Рабочий пример Item. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/item\n\nИсходник: src/components/ui/item.tsx\n\n```tsx\nimport { Item } from \"@/components/ui/item\"\n```" } } },
 } satisfies Meta<typeof ItemDemo>
 export default meta
 type Story = StoryObj<typeof meta>

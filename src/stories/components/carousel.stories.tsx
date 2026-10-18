@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Carousel",
   component: CarouselDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Carousel. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/carousel\n\nИсходник: src/components/ui/carousel.tsx" } } },
+  parameters: { docs: { description: { component: "Рабочий пример Carousel. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/carousel\n\nИсходник: src/components/ui/carousel.tsx\n\n```tsx\nimport { Carousel } from \"@/components/ui/carousel\"\n```" } } },
 } satisfies Meta<typeof CarouselDemo>
 export default meta
 type Story = StoryObj<typeof meta>

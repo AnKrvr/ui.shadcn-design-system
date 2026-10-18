@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Code Block",
   component: CodeBlockDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Code Block. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/code-block\n\nИсходник: src/components/ui/code-block.tsx" } } },
+  parameters: { docs: { description: { component: "Рабочий пример Code Block. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/code-block\n\nИсходник: src/components/ui/code-block.tsx\n\n```tsx\nimport { CodeBlock } from \"@/components/ui/code-block\"\n```" } } },
 } satisfies Meta<typeof CodeBlockDemo>
 export default meta
 type Story = StoryObj<typeof meta>

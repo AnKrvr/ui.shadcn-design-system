@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Native Select",
   component: NativeSelectDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Native Select. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/native-select\n\nИсходник: src/components/ui/native-select.tsx" } } },
+  parameters: { docs: { description: { component: "Рабочий пример Native Select. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/native-select\n\nИсходник: src/components/ui/native-select.tsx\n\n```tsx\nimport { NativeSelect } from \"@/components/ui/native-select\"\n```" } } },
 } satisfies Meta<typeof NativeSelectDemo>
 export default meta
 type Story = StoryObj<typeof meta>

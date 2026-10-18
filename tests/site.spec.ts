@@ -1,4 +1,7 @@
 import { test, expect } from "@playwright/test"
+test.afterEach(async ({page}, info) => {
+  if (info.title.startsWith("page fits")) await page.screenshot({path:info.outputPath("page.png"),fullPage:true})
+})
 for (const width of [375,1440]) for (const colorScheme of ["light","dark"] as const) {
   test(`page fits ${width}px in ${colorScheme}`, async ({page}) => {
     await page.setViewportSize({width,height:1000})
@@ -24,7 +27,9 @@ test("blocked localStorage does not crash the page", async ({page}) => {
 test("dialog closes with Escape and restores keyboard focus", async ({page}) => {
   await page.goto("/")
   const trigger=page.getByRole("button",{name:"Новый проект",exact:true})
-  await trigger.focus()
+  await page.getByRole("button",{name:"Выбрать тему"}).focus()
+  await page.keyboard.press("Tab")
+  await expect(trigger).toBeFocused()
   await page.keyboard.press("Enter")
   await expect(page.getByRole("dialog")).toBeVisible()
   await page.keyboard.press("Escape")

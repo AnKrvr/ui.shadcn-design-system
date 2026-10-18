@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Typography",
   component: TypographyDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Typography. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/typography\n\nИсходник: src/components/patterns/typography.tsx" } } },
+  parameters: { docs: { description: { component: "Рабочий пример Typography. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/typography\n\nИсходник: src/components/patterns/typography.tsx\n\n```tsx\nimport { TypographyDemo } from \"@/components/patterns/typography\"\n```" } } },
 } satisfies Meta<typeof TypographyDemo>
 export default meta
 type Story = StoryObj<typeof meta>

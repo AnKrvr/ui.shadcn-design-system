@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Navigation Menu",
   component: NavigationMenuDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Navigation Menu. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/navigation-menu\n\nИсходник: src/components/ui/navigation-menu.tsx" } } },
+  parameters: { docs: { description: { component: "Рабочий пример Navigation Menu. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/navigation-menu\n\nИсходник: src/components/ui/navigation-menu.tsx\n\n```tsx\nimport { NavigationMenu } from \"@/components/ui/navigation-menu\"\n```" } } },
 } satisfies Meta<typeof NavigationMenuDemo>
 export default meta
 type Story = StoryObj<typeof meta>

@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Alert Dialog",
   component: AlertDialogDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Alert Dialog. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/alert-dialog\n\nИсходник: src/components/ui/alert-dialog.tsx" } } },
+  parameters: { docs: { description: { component: "Рабочий пример Alert Dialog. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/alert-dialog\n\nИсходник: src/components/ui/alert-dialog.tsx\n\n```tsx\nimport { AlertDialog } from \"@/components/ui/alert-dialog\"\n```" } } },
 } satisfies Meta<typeof AlertDialogDemo>
 export default meta
 type Story = StoryObj<typeof meta>

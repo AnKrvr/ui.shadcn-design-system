@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Toast",
   component: SonnerDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Toast устарел в shadcn/ui. Этот пример использует официальный рекомендуемый Sonner.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/toast\n\nИсходник: src/components/ui/sonner.tsx" } } },
+  parameters: { docs: { description: { component: "Toast устарел в shadcn/ui. Этот пример использует официальный рекомендуемый Sonner.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/toast\n\nИсходник: src/components/ui/sonner.tsx\n\n```tsx\nimport { Toaster } from \"@/components/ui/sonner\"\n```" } } },
 } satisfies Meta<typeof SonnerDemo>
 export default meta
 type Story = StoryObj<typeof meta>

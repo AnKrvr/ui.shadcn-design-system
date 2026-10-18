@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Pagination",
   component: PaginationDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Pagination. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/pagination\n\nИсходник: src/components/ui/pagination.tsx" } } },
+  parameters: { docs: { description: { component: "Рабочий пример Pagination. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/pagination\n\nИсходник: src/components/ui/pagination.tsx\n\n```tsx\nimport { Pagination } from \"@/components/ui/pagination\"\n```" } } },
 } satisfies Meta<typeof PaginationDemo>
 export default meta
 type Story = StoryObj<typeof meta>

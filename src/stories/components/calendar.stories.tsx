@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Calendar",
   component: CalendarDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Calendar. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/calendar\n\nИсходник: src/components/ui/calendar.tsx" } } },
+  parameters: { docs: { description: { component: "Рабочий пример Calendar. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/calendar\n\nИсходник: src/components/ui/calendar.tsx\n\n```tsx\nimport { Calendar } from \"@/components/ui/calendar\"\n```" } } },
 } satisfies Meta<typeof CalendarDemo>
 export default meta
 type Story = StoryObj<typeof meta>

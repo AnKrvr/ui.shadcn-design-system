@@ -5,7 +5,7 @@ const meta = {
   title: "Components/Dialog",
   component: DialogDemo,
   tags: ["autodocs"],
-  parameters: { docs: { description: { component: "Рабочий пример Dialog. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/dialog\n\nИсходник: src/components/ui/dialog.tsx" } } },
+  parameters: { docs: { description: { component: "Рабочий пример Dialog. Поддерживаемые варианты и состояния показаны на этой странице.\n\nДокументация: https://ui.shadcn.com/docs/components/radix/dialog\n\nИсходник: src/components/ui/dialog.tsx\n\n```tsx\nimport { Dialog } from \"@/components/ui/dialog\"\n```" } } },
 } satisfies Meta<typeof DialogDemo>
 export default meta
 type Story = StoryObj<typeof meta>
